@@ -12,9 +12,8 @@
                          stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"/>
-                    </svg>
-                    <span core-show="topic-likes">{{ $data->likes->count() }}</span>
-                </a>
+                    </svg><span core-show="topic-likes">{{ $data->likes->count() }}</span>
+                </a>&nbsp;&nbsp;
                 {{--                收藏--}}
                 <a style="text-decoration:none;" core-click="star-topic" topic-id="{{ $data->id }}"
                    class="hvr-icon-bounce cursor-pointer text-muted" data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -24,9 +23,8 @@
                          stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                         <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"></path>
-                    </svg>
-                    收藏
-                </a>
+                    </svg>收藏
+                </a>&nbsp;&nbsp;
 {{--                --}}{{--                    举报--}}
 {{--                <a data-bs-toggle="modal" data-bs-target="#modal-report" style="text-decoration:none;"--}}
 {{--                   core-click="report-topic" topic-id="{{ $data->id }}"--}}
@@ -55,9 +53,8 @@
                         <path d="M21 7h-6"></path>
                         <path d="M9 9h1a1 1 0 1 1 -1 1v-2.5a2 2 0 0 1 2 -2"></path>
                         <path d="M3 9h1a1 1 0 1 1 -1 1v-2.5a2 2 0 0 1 2 -2"></path>
-                    </svg>
-                    短代码
-                </a>
+                    </svg>短代码
+                </a>&nbsp;&nbsp;
             </div>
 
             {{--                    右边 footer--}}
