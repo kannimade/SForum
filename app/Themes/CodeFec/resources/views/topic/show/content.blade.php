@@ -69,8 +69,8 @@
             </article>
             @if($data->user->Options->qianming && $data->user->Options->qianming!=='no bio')
                 <div class="px-3 py-3">
-                    <div class="hr-text hr-text-left mt-0 mb-3">signature</div>
-                    <span class="text-muted">
+                    <div class="signature"></div>
+                    <span class="text-muted-signature" style="color: rgba(134, 142, 150, 0.8) !important;">
                             {{$data->user->Options->qianming}}
                     </span>
                 </div>
